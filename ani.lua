@@ -355,7 +355,7 @@ local Tab = Gui:AddTab("Discord")
 local Category = Tab:AddCategory("Discord")
 
 local Button = Category:AddButton("Join Discord", function()
-	setclipboard("https://discord.gg/hsdcAFZY9E")
+	setclipboard("https://discord.gg/gW4u6yBJa5")
     Library:Notify("Invite prompted! If it did not work the invite was copied to your clipboard.")
     local json = {
    ["cmd"] = "INVITE_BROWSER",
@@ -395,9 +395,9 @@ local Button = Category:AddButton("Close GUI", function()
 	game.CoreGui.IreXionUILib:Destroy()
 end)
 
-Library:Notify("Join Discord server?", function(bool)
+Library:Notify("Made by curtzy?", function(bool)
 	if bool == true then
-		setclipboard("https://discord.gg/hsdcAFZY9E")
+		setclipboard("https://discord.gg/gW4u6yBJa5")
     Library:Notify("Invite prompted! If it did not work the invite was copied to your clipboard.")
     local json = {
    ["cmd"] = "INVITE_BROWSER",
